@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #E0FFFF;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #00BFFF;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<table id="customers">
+<tr>
+    <th rowspan="2">Periodo</th>
+    <th colspan="2">Tempo di raddoppio (giorni)</th>
+  </tr>
+
+  <tr>
+    <th>Stima</th>
+    <th>IC (95%)</th>
+  </tr>
+  <tr>
+    <td>dal 24/2 al 12/3</td>
+    <td align="center">2,75</td>
+    <td align="center">(2,45 - 3,14)</td>
+  </tr>
+  <tr>
+    <td>dal 12/3 al 21/3</td>
+    <td align="center">4,29</td>
+    <td align="center">(3,92 - 4,73)</td>
+  </tr>
+
+</table>
+
+</body>
+</html>
