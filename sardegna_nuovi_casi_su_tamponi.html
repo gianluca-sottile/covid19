@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #E0FFFF;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #00BFFF;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<table id="customers">
+<tr>
+    <th rowspan="2">Periodo</th>
+    <th colspan="2">Tempo di raddoppio (Nuovi positivi su tamponi)</th>
+  </tr>
+
+  <tr>
+    <th>Stima</th>
+    <th>IC (95%)</th>
+  </tr>
+  <tr><td>dal 25/02 al 31/03*</td><td align='center'>-0.47</td><td align='center'>[-1.75; 0.82]</td></tr>
+<tr><td>dal 31/03* al 26/05*</td><td align='center'>-10.11</td><td align='center'>[-10.77; -9.44]</td></tr>
+<tr><td>dal 26/05* al 31/05*</td><td align='center'>14.41</td><td align='center'>[-67.10; 297.92]</td></tr>
+<tr><td>dal 31/05* al 18/07*</td><td align='center'>0.63</td><td align='center'>[-1.93; 3.25]</td></tr>
+<tr><td>dal 18/07* al 23/08*</td><td align='center'>11.86</td><td align='center'>[10.17; 13.57]</td></tr>
+<tr><td>dal 23/08* al 16/09*</td><td align='center'>-2.56</td><td align='center'>[-3.37; -1.74]</td></tr>
+<tr><td>dal 16/09* al 22/09</td><td align='center'>16.01</td><td align='center'>[6.09; 26.86]</td></tr>
+
+</table>
+
+</body>
+</html>
